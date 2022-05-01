@@ -4,7 +4,7 @@ use Cake\ORM\Entity;
 
 class Article extends Entity{
 
-    protected $_accessoble = [
+    protected $_accessible = [
         '*' => true,
         'id' => false,
         'slug' => false
